@@ -9,6 +9,6 @@ Hey there. I'm Terran, a third-year Software Engineering student at the Universi
 What am I doing right now?
 - Updating this site
 - University coursework
-- Learning Japanese (in hiatus)
+- Learning languages
 
 I don't actually know how to write blurbs about myself, so check out [GitHub](https://www.github.com/itemic) or [LinkedIn](https://www.linkedin.com/in/terrankroft/) to learn more! I'll return and update this in due time.
