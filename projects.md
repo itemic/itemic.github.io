@@ -4,4 +4,4 @@ title: "Projects"
 permalink: /projects/
 ---
 
-Some stuff I've done.
+I did a few things in the past. You can see them here. <b>Does this work?</b>
