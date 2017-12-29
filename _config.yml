@@ -9,14 +9,6 @@ gems:
   - jekyll-sitemap
 
 
-pagination:
-  enabled: true
-  per_page: 9
-  category: 'categories'
-  
-
-
-
 jekyll-archives:
   enabled:
     - categories

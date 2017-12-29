@@ -1,3 +1,52 @@
-a:visited {
+/*a:visited {
 	color: inherit;
+}*/
+
+.container-fluid.full-width {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.revilo-bg {
+	/*margin-left: 30px;*/
+	/*margin-right: 30px;*/
+	padding-top: 50px;
+	padding-bottom: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	/*height: 50vh;*/
+	width: 100%;
+	display: block;
+	overflow-y: scroll;
+	background-color: #F7FBFF;
+	color: black;
+	text-align: center;
+
+}
+
+.voxspell-bg {
+	/*margin-left: 30px;*/
+	/*margin-right: 30px;*/
+	font-family: Roboto, sans-serif;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	/*height: 50vh;*/
+	width: 100%;
+	display: block;
+	overflow-y: scroll;
+	background-color: #2D2C2C;
+	color: white;
+	text-align: center;
+
+}
+
+.voxspell-btn {
+	color: white; /* change because we don't want colors */
+	background-color: #2196F3;
+	border-radius: 2px 2px 2px 2px;
+	height: 36;
+	min-width: 88;
+	padding: 0 16 0 16;
 }
