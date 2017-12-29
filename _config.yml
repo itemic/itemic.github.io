@@ -5,11 +5,17 @@ permalink: /blog/:year/:month/:day/:title
 theme: jekyll-whiteglass
 gems:
   - jekyll-archives
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
 
-paginate_path: /posts/:num/
-paginate: 5
+
+pagination:
+  enabled: true
+  per_page: 9
+  category: 'categories'
+  
+
+
 
 jekyll-archives:
   enabled:

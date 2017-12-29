@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Projects"
+title: "projects"
 permalink: /projects/
 ---
 
-Some stuff I've done.
+I do have projects, I just haven't put them up here yet.
