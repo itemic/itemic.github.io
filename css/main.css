@@ -47,20 +47,20 @@
 .typography-header {
 	font-size: 56px;
 	font-weight: 500;
-    font-family: "SF Pro Display","SF Pro Icons";
+    /*font-family: "SF Pro Display","SF Pro Icons";*/
 }
 
 .typography-header-short {
 	font-size: 64px;
 	line-height: 0.8;
 	font-weight: 500;
-    font-family: "SF Pro Display","SF Pro Icons";
+    /*font-family: "SF Pro Display","SF Pro Icons";*/
 }
 
 .typography-sub {
 	font-size: 24px;
 	font-weight: 400;
-	font-family: "SF Pro Display","SF Pro Icons";
+	/*font-family: "SF Pro Display","SF Pro Icons";*/
 }
 
 .typography-hero {
