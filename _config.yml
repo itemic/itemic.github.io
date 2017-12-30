@@ -2,7 +2,7 @@ name: Terran
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-theme: jekyll-whiteglass
+# theme: jekyll-whiteglass
 gems:
   - jekyll-archives
   - jekyll-paginate-v2
