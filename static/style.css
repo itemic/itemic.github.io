@@ -1,0 +1,151 @@
+/* Animations */
+@keyframes switch {
+  0%  {opacity: 1;}
+  /*25% {opacity: 0.5;}*/
+  50% {opacity: 1;}
+  /*75% {opacity: 0.5;}*/
+  100% {opacity: 1;}
+}
+
+html, body, #container, #wrap, .main {
+  /*height: 100%;*/
+      background-color: var(--color-dark);
+      /*background-color: green;*/
+}
+
+div {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  --accent-color: #8a8a8a;
+  --text-color: #000;
+  --nav-text-color: #f2f2f2;
+
+  --color-orange: #d28e5d;
+  --color-red: #dc3c3c;
+  --color-fuschia: #b73999;
+  --color-purple: #8485ce;
+  --color-forest-green: #64878f;
+  --color-mint-green: #95c76f;
+  --color-green: #52bd58;
+  --color-blue-green: #00aba5;
+  --color-blue: #4670d8;
+  --color-dark: #20222B;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+#container {
+  background-color: var(--color-dark);
+    color: white;
+}
+
+body, button {
+  font-family: "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+.nav {
+  width: 100%;
+  --nav-height: 3rem;
+  text-align: center;
+  background-color: rgba(50, 50, 50, 0.8);
+  /*opacity: 0.95;*/
+  line-height: var(--nav-height);
+  position: fixed;
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-light {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+  /*opacity: 1;*/
+}
+
+.content {
+  padding-top: 3rem;
+  /*text-align: center;*/
+}
+
+
+
+.title-header {
+  font-size: 4rem;
+  margin-bottom: -.5rem;
+  font-weight: 600;
+}
+
+.loud {
+  font-size: 8rem;
+  font-weight: 800;
+}
+.subtitle-header {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#static {
+  padding: 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.bg-bright {
+  background: -webkit-linear-gradient(top, #f5f4f5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  color: black;
+}
+
+.bg-dark {
+  background-color: #161616;
+  color: white;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "SF Pro Text", "SF Pro Icons";
+  letter-spacing: -0.021em;
+  line-height: 1.5;
+}
+
+.text-block {
+  padding: 0 10% 0 10%;
+}
+#whoami.run {
+  animation: switch 4s 1;
+  min-height: 100px;
+}
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 30% 0 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav li {
+  display: inline-block;
+  font-family: "SF Pro Text";
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  font-weight: 400;
+}
+.nav a {
+  color: var(--nav-text-color);
+}
+
+.nav-light a {
+  color: #3C3C3C;
+}
+
+.nav a:hover {
+  color: var(--accent-color);
+}
