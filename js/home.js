@@ -1,5 +1,18 @@
 const whatAmI = () => {
-	const choices = ["Terran", "a student", "still studying", "studying software engineering", "from Taiwan", "thinking of more options to put here", "@itemic on Twitter"]
+	const choices = ["Studying software engineering at the University of Auckland.",
+					 "Follow me on Twitter at @itemic.",
+					 "I'm Terran!",
+					 "歡迎來到我的網站！",
+					 "Here's some randomly generated text.",
+					 "The mitochondrion is the powerhouse of the cell.",
+					 "I have an otamatone (actually I have two.)",
+					 "Taking submissions for more interesting content for my site.",
+					 "Welcome to the 476th redesign of my personal website.",
+					 "This even supports emoji! 🍵🐍",
+					 "You can use those buttons up there to go to different pages!",
+					 "This site is still under construction.",
+					 "嗨！",
+					 "Not sure."]
 	const choice = choices[Math.floor(Math.random() * choices.length)]
 	// console.log(choice)
 	return choice
