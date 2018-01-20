@@ -7,19 +7,8 @@
   100% {opacity: 0;}
 }
 
-html, body, .main {
-  /*height: 100%;*/
-      /*background-color: var(--color-dark);*/
-      /*background-color: green;*/
-      /*background-color: #F9F9F9;*/
-}
-
-/*div {
-  margin: 0;
-}*/
-
 html, body {
-  /*height: 100%;*/
+  min-height: 100%;
   --accent-color: #8a8a8a;
   --text-color: #000;
   --nav-text-color: #f2f2f2;
@@ -38,7 +27,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
+body {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
 
 #container {
   /*background-color: var(--color-dark);*/
@@ -62,7 +54,7 @@ body, button {
   z-index: 50;
 }
 
-.nav-light {
+.nav-bright {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -88,13 +80,22 @@ body, button {
   font-weight: 600;
 }
 
+.title-subheader {
+  font-size: 3rem;
+  margin-top: 0rem;
+  margin-bottom: -.5rem;
+  font-weight: 500;
+}
+
 .loud {
   font-size: 8rem;
   font-weight: 800;
 }
 .subtitle-header {
   font-size: 2rem;
-  font-weight: 300;
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+  font-weight: 400;
 }
 
 #static {
@@ -112,9 +113,11 @@ a {
 }
 
 .bg-dark {
-  background-color: #161616;
+  background-color: #191919;
   color: white;
 }
+
+
 
 p {
   font-size: 1.25rem;
@@ -123,14 +126,22 @@ p {
   line-height: 1.25;
 }
 
-body {
-  font-weight: 400;
-  font-size: 1.25rem;
+.vibrant {
+  font-size: 1.65rem;
 }
+
+.subdue-dark {
+  color: #B4B4B4;
+  font-weight: 300
+}
+
+
 
 .text-block {
   padding: 2.5% 10% 2.5% 10%;
-  /*display: block*/
+  /*padding-top: 6rem;*/
+  /*min-height: 50vh;*/
+  display: block
 }
 #whoami.run {
   animation: switch 4s 1;
@@ -155,10 +166,16 @@ body {
   color: var(--nav-text-color);
 }
 
-.nav-light a {
+.nav-bright a {
   color: #3C3C3C;
 }
 
 .nav a:hover {
   color: var(--accent-color);
 }
+
+.link a {
+  color: white;
+  font-weight: 400
+}
+
