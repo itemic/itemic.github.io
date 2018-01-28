@@ -1,0 +1,15 @@
+.card-container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    align-content: center;
+    text-align: center;
+    /*padding: 2.5% 10% 2.5% 10%;*/
+  }  
+
+  .card {
+    min-width: 30%;
+    height: 200px;
+    background: green
+  }

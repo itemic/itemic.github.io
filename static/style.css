@@ -7,6 +7,12 @@
   100% {opacity: 0;}
 }
 
+#whoami.run {
+  animation: switch 4s 1;
+  min-height: 100px;
+}
+/* OTHERS */
+
 html, body {
   min-height: 100%;
   --accent-color: #8a8a8a;
@@ -23,6 +29,7 @@ html, body {
   --color-blue-green: #00aba5;
   --color-blue: #4670d8;
   --color-dark: #20222B;
+  --color-bgdark: #191919;
 
   margin: 0;
   padding: 0;
@@ -54,6 +61,8 @@ body, button {
   z-index: 50;
 }
 
+/* NAVIGATION STUFF */
+
 .nav-bright {
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -66,12 +75,44 @@ body, button {
   padding-top: 3rem
 }
 
-.content {
-  /*padding-top: 2rem;*/
-  /*text-align: center;*/
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20% 0 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav li {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  font-weight: 400;
+}
+.nav a {
+  color: var(--nav-text-color);
 }
 
+.nav-bright a {
+  color: #3C3C3C;
+}
 
+.nav a:hover {
+  color: var(--accent-color);
+}
+
+/* BACKGROUND */
+
+.bg-bright {
+  background: -webkit-linear-gradient(top, #f5f4f5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  color: black;
+}
+
+.bg-dark {
+  background-color: var(--color-bgdark);
+  color: white;
+}
+
+/* TITLES AND TEXT */
 
 .title-header {
   font-size: 4rem;
@@ -98,25 +139,10 @@ body, button {
   font-weight: 400;
 }
 
-#static {
-  padding: 0;
-}
-
 a {
   color: var(--accent-color);
   text-decoration: none;
 }
-
-.bg-bright {
-  background: -webkit-linear-gradient(top, #f5f4f5 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
-  color: black;
-}
-
-.bg-dark {
-  background-color: #191919;
-  color: white;
-}
-
 
 
 p {
@@ -130,12 +156,10 @@ p {
   font-size: 1.65rem;
 }
 
-.subdue-dark {
+.defocused {
   color: #B4B4B4;
   font-weight: 300
 }
-
-
 
 .text-block {
   padding: 2.5% 10% 2.5% 10%;
@@ -143,39 +167,40 @@ p {
   /*min-height: 50vh;*/
   display: block
 }
-#whoami.run {
-  animation: switch 4s 1;
-  min-height: 100px;
-}
-
-
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0 30% 0 30%;
-  display: flex;
-  justify-content: space-around;
-}
-.nav li {
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0 0.5rem;
-  font-weight: 400;
-}
-.nav a {
-  color: var(--nav-text-color);
-}
-
-.nav-bright a {
-  color: #3C3C3C;
-}
-
-.nav a:hover {
-  color: var(--accent-color);
-}
 
 .link a {
   color: white;
   font-weight: 400
+}
+
+.color-title {
+  font-weight: 200;
+  font-size: 5rem;
+}
+
+.content {
+  padding: 0% 10% 2.5% 10%;
+}
+
+/* CSS GRID */
+
+@media (min-width: 500px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    /*padding: 2.5% 10% 2.5% 10%;*/
+  }  
+}
+
+@media (min-width: 1000px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2.5%;
+    /*padding: 2.5% 10% 2.5% 10%;*/
+  }  
+
+.box {
+  padding: 0% 0% 5% 0%;
 }
 
