@@ -71,9 +71,9 @@ body, button {
   background-color: rgba(50, 50, 50, 0.8);
 }
 
-.wrap {
-  padding-top: 3rem
-}
+/*.wrap {
+  padding-top: 1rem
+}*/
 
 .nav ul {
   list-style-type: none;
@@ -115,17 +115,17 @@ body, button {
 
 /* TITLES AND TEXT */
 
-.title-header {
-  font-size: 4rem;
+h1 {
+  font-size: 5rem;
   margin-top: 0rem;
   margin-bottom: -.5rem;
   font-weight: 600;
 }
 
-.title-subheader {
+h2 {
   font-size: 3rem;
   margin-top: 0rem;
-  margin-bottom: -.5rem;
+  margin-bottom: -1.25rem;
   font-weight: 500;
 }
 
@@ -133,12 +133,12 @@ body, button {
   font-size: 8rem;
   font-weight: 800;
 }
-.subtitle-header {
+/*h2 {
   font-size: 2rem;
   margin-top: 0.5rem;
   margin-bottom: -0.5rem;
   font-weight: 400;
-}
+}*/
 
 a {
   color: var(--accent-color);
@@ -148,9 +148,9 @@ a {
 
 p {
   font-size: 1.25rem;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  line-height: 1.25;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  /*line-height: 1.25;*/
 }
 
 .vibrant {
@@ -158,16 +158,10 @@ p {
 }
 
 .defocused {
-  color: #B4B4B4;
+  color: #777;
   font-weight: 300
 }
 
-.text-block {
-  padding: 2.5% 10% 2.5% 10%;
-  /*padding-top: 6rem;*/
-  /*min-height: 50vh;*/
-  display: block
-}
 
 .link a {
   color: white;
@@ -179,29 +173,25 @@ p {
   font-size: 5rem;
 }
 
-.content {
-  /*padding: 0% 10% 2.5% 10%;*/
+.main-content {
+  padding: 2.5% 10% 2.5% 10%;
+  padding-top: 5vh;
+  height: 95vh;
+  display: block;
+  vertical-align: middle;
 }
 
 /* CSS GRID */
 
-@media (min-width: 500px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 100%;
-    padding: 2.5% 10% 2.5% 10%;
-  }  
+.wrapper {
+  padding: 0% 20% 2.5% 20%;
 }
-
-@media (min-width: 1000px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 2.5%;
-    padding: 2.5% 10% 2.5% 10%;
-  }  
 
 .box {
   padding: 0% 0% 5% 0%;
 }
 
+.card {
+  height: 6rem;
+  background: var(--color-blue-green);
+}
