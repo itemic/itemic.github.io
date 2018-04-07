@@ -7,7 +7,7 @@ const whatAmI = () => {
 					 "The mitochondrion is the powerhouse of the cell.",
 					 "I have an otamatone (actually I have two.)",
 					 "Taking submissions for more interesting content for my site.",
-					 "Welcome to the 476th redesign of my personal website.",
+					 "Welcome to the ∞th redesign of my personal website.",
 					 "This even supports emoji! 🍵🐍",
 					 "You can use those buttons up there to go to different pages!",
 					 "This site is still under construction.",

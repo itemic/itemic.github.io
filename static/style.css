@@ -15,7 +15,7 @@
 
 html, body {
   min-height: 100%;
-  --accent-color: #8a8a8a;
+  --accent-color: #00aba5;
   --text-color: #000;
   --nav-text-color: #f2f2f2;
 
@@ -107,8 +107,13 @@ body, button {
   color: black;
 }
 
+.bg-light {
+  background: #F8F8F8;
+  color: black;
+}
+
 .bg-dark {
-  background-color: var(--color-bgdark);
+  background-color: var(--color-blue-green);
   color: white;
 }
 
@@ -125,20 +130,21 @@ h1 {
 h2 {
   font-size: 3rem;
   margin-top: 0rem;
-  margin-bottom: -1.25rem;
+  margin-bottom: 0rem;
   font-weight: 500;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .loud {
   font-size: 8rem;
   font-weight: 800;
 }
-/*h2 {
-  font-size: 2rem;
-  margin-top: 0.5rem;
-  margin-bottom: -0.5rem;
-  font-weight: 400;
-}*/
 
 a {
   color: var(--accent-color);
@@ -146,15 +152,24 @@ a {
 }
 
 
-p {
-  font-size: 1.25rem;
-  font-weight: 300;
+h4 {
+  font-size: 1.65rem;
+  font-weight: 600;
   letter-spacing: 0.02em;
-  /*line-height: 1.25;*/
+  margin-bottom: 0rem;
+}
+
+p {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.016em;
+  margin-top: 0.5rem;
+  line-height: 1.38;
+
 }
 
 .vibrant {
-  font-size: 1.65rem;
+  font-weight: 400;
 }
 
 .defocused {
@@ -164,8 +179,8 @@ p {
 
 
 .link a {
-  color: white;
-  font-weight: 400
+  color: black;
+  font-weight: 500
 }
 
 .color-title {
@@ -174,11 +189,17 @@ p {
 }
 
 .main-content {
+  padding: 0 10% 0 10%;
+  padding-top: 15vh;
+  height: 85vh;
+  display: block;
+}
+
+.content {
   padding: 2.5% 10% 2.5% 10%;
   padding-top: 5vh;
-  height: 95vh;
+  min-height: 50vh;
   display: block;
-  vertical-align: middle;
 }
 
 /* CSS GRID */
