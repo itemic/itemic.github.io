@@ -198,7 +198,7 @@ p {
 .content {
   padding: 2.5% 10% 2.5% 10%;
   padding-top: 5vh;
-  min-height: 50vh;
+  min-height: 25vh;
   display: block;
 }
 

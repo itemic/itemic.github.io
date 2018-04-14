@@ -9,10 +9,11 @@ const whatAmI = () => {
 					 "Taking submissions for more interesting content for my site.",
 					 "Welcome to the ∞th redesign of my personal website.",
 					 "This even supports emoji! 🍵🐍",
-					 "You can use those buttons up there to go to different pages!",
+					 "This site used to have buttons somewhere up there.",
 					 "This site is still under construction.",
 					 "嗨！",
-					 "Not sure."]
+					 "Not sure.",
+					 "Here's more random text."]
 	const choice = choices[Math.floor(Math.random() * choices.length)]
 	// console.log(choice)
 	return choice
