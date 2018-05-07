@@ -30,6 +30,8 @@ html, body {
   --color-blue: #4670d8;
   --color-dark: #20222B;
   --color-bgdark: #191919;
+  --color-linkedin: #0061A2;
+  --color-twitter: #178DEF;
 
   margin: 0;
   padding: 0;
@@ -113,6 +115,11 @@ body, button {
 }
 
 .bg-dark {
+  background-color: var(--color-bgdark);
+  color: white;
+}
+
+.bg-green {
   background-color: var(--color-blue-green);
   color: white;
 }
@@ -138,7 +145,7 @@ h3 {
   font-size: 2rem;
   margin-top: 0rem;
   margin-bottom: 0.5rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .loud {
@@ -195,10 +202,18 @@ p {
   display: block;
 }
 
+.construction {
+  padding: 0 0% 0% 0%;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  display: block;
+}
+
 .content {
   padding: 2.5% 10% 2.5% 10%;
   padding-top: 5vh;
-  min-height: 25vh;
+  min-height: 5vh;
   display: block;
 }
 
