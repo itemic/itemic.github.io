@@ -1,6 +1,9 @@
 const whatAmI = () => {
-	const choices = ["Studying software engineering at the University of Auckland.",
+	const choices = ["Studied software engineering at the University of Auckland.",
 					 "Follow me on Twitter at @itemic.",
+					 "Follow me on Instagram at @ekisigns",
+					 "I like signs!",
+					 "Where am I?",
 					 "I'm Terran!",
 					 "歡迎來到我的網站！",
 					 "Here's some randomly generated text.",
