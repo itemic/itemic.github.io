@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Terran</title>
+	<link href="static/style.css" rel="stylesheet" />
+	<script src="js/home.js" async></script>
+</head>
+<body>
+	<div id="container">
+		
+		<div class="main-content bg-bright">
+			<div class="vibrant"><a href="index.html" class="pill-back">◄ Home</a></div>
+			<h1>Playground</h1><br>
+			<h2>Nothing to see here...</h2>
+			<!-- <h2>Just a place for me to mess with stuff while the world watches...</h2> -->
+			<!-- <div class="projects-scroll">Scroll to view</div> -->
+
+			<canvas id="canvas" style="position: absolute; left: 0; z-index: 0;"></canvas>
+
+		</div>
+		</div>
+
+		<script>
+			function draw() {
+				var canvas = document.getElementById('canvas')
+				canvas.style.width = '100%'
+				canvas.style.height = '100%'
+				canvas.width = canvas.offsetWidth;
+				canvas.height = canvas.offsetHeight;
+				if (canvas.getContext) {
+					let ctx = canvas.getContext('2d')
+					ctx.font = '120pt "-apple-system"';
+					ctx.textBaseline = 'hanging';
+					ctx.strokeText('NOTHING.', 25, 100);
+
+
+				}
+			}
+			draw()
+		</script>
+	</body>
+	</html>
