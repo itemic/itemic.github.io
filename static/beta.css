@@ -1,0 +1,38 @@
+.holographic {
+    background-image: 
+    linear-gradient(217deg, rgba(220,60,60,.5), rgba(220,60,60,0) 75%),
+    linear-gradient(127deg, rgba(82,189,88,.5), rgba(82,189,88,0) 75%),
+    linear-gradient(336deg, rgba(70,110,216,.5), rgba(70,110,216,0) 75%);
+    background-size: 100%;
+    color: black;
+}
+
+.really-bold {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 8rem;
+    margin-top: 0rem;
+    margin-bottom: -.5rem;
+    font-weight: 800;
+}
+
+.beta-main-content {
+    padding: 0% 10% 0% 10%;
+    padding-top: 65vh;
+    height: 35vh;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+
+  .beta-container {
+      align-items: center;
+  }
+
+  .text-beta {
+    background: 
+    linear-gradient(217deg, rgba(220,60,60,1), rgba(220,60,60,0) 75%),
+    linear-gradient(127deg, rgba(82,189,88,1), rgba(82,189,88,0) 75%),
+    linear-gradient(336deg, rgba(70,110,216,1), rgba(70,110,216,0) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
